@@ -15,7 +15,7 @@ spec:
       containers:
       - name: springbootdemo
         imagePullPolicy: Always
-        image: us-ashburn-1.ocir.io/idzor6zhmigm/oci-test:3.0
+        image: us-ashburn-1.ocir.io/idzor6zhmigm/oci-test:{{FD_PROJECT_VERSION}}
         ports:
         - containerPort: 8080
         envFrom:
