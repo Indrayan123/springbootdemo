@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: springboot-demo-config3
 data:
-  targetHostDNS: "jsonplaceholder.typicode.com"
+  targetHostDNS: ${{DB_HOST}}
   targetMethodRelativePath: "albums"
