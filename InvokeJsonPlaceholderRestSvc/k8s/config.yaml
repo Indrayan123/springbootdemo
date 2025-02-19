@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: springboot-demo-config3
 data:
-  targetHostDNS: ${{DB_HOST}}
+  targetHostDNS: ${{DB_USER_ABC}}
   targetMethodRelativePath: "albums"
